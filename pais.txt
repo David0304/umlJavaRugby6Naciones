@@ -1,0 +1,11 @@
+package umlJavaRugby6Naciones;
+
+//enumeración
+public enum País{
+	Escocia;
+	Francia;
+	Gales;
+	Inglaterra;
+	Irlanda;
+	Italia;
+}

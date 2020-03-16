@@ -1,0 +1,6 @@
+package umlJavaRugby6Naciones;
+
+public class entrenador extends Persona{
+
+	public java.util.Collection entrenaEquipo = new java.util.TreeSet();
+}

@@ -1,0 +1,6 @@
+package umlJavaRugby6Naciones;
+
+public class Árbitro extends Persona{
+
+	public java.util.Collection arbitraPartido = new java.util.TreeSet();
+}

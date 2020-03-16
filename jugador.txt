@@ -1,0 +1,29 @@
+package umlJavaRugby6Naciones;
+
+public class jugador extends Persona{
+	private Posición posición;
+
+	public java.util.Collection esUnCapitan = new java.util.TreeSet();
+	public java.util.Collection debeDeSerCapitan = new java.util.TreeSet();
+
+	public java.util.Collection equipo = new java.util.TreeSet();
+
+	public posición getPosicion() {
+		
+		return posicion;
+	
+	}
+	
+	public void setPosición(Posición posición) {
+		
+		this.posición = posición;
+	
+	}
+	
+	public String mostrarDatosJugador(persona p1)
+	{
+	
+		return p1.mostrarDatos()+"posición:"+posición;
+	
+	}
+}

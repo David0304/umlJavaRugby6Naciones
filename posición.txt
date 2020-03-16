@@ -1,0 +1,16 @@
+package umlJavaRugby6Naciones;
+
+//enumeración
+public enum posición{
+ 
+	pilier;
+	talonador;
+	segunda línea;
+	tercera línea;
+	medio melé;
+	apertura;
+	centro;
+	ala;
+	zaguero;
+	}
+

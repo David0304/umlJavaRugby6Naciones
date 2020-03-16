@@ -1,0 +1,23 @@
+package umlJavaRugby6Naciones;
+
+import java.sql.Date;
+
+public class jornada{
+	private Date fecha;
+	
+	//máximo de 5 jornadas
+	public java.util.Collection jornadaPartido = new java.util.TreeSet();
+
+	public String getFecha() {
+		
+		return fecha;
+	
+	}
+
+	
+	public void setFecha(String fecha) {
+		
+		this.fecha = fecha;
+	
+	}
+}

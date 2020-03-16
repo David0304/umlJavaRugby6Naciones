@@ -1,0 +1,17 @@
+package umlJavaRugby6Naciones;
+
+public class Equipo{
+	private País nombre;
+	
+	//máximo de jugadores 15
+	public java.util.Collection tieneJugadores = new java.util.TreeSet();
+
+	//máximo de entrenadores 1
+	public java.util.Collection tieneEntrenador = new java.util.TreeSet();
+	
+	public java.util.Collection tieneEstadio = new java.util.TreeSet();
+
+	public java.util.Collection partidoLocal = new java.util.TreeSet();
+	public java.util.Collection partidoVisitante = new java.util.TreeSet();
+	
+}

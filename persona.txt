@@ -1,0 +1,41 @@
+package umlJavaRugby6Naciones;
+
+
+import java.sql.Date;
+
+public class Persona {
+   
+	private String nombre;
+  
+	private Date fechaNac;
+
+
+	public String getNombre() {
+	
+		return nombre;
+	
+	}
+
+
+	public void setNombre(String nombre) {
+	
+		this.nombre = nombre;
+	
+	}
+	
+
+	public String getFechaNacimiento() {
+	
+		return fechaNacimiento;
+	
+	}
+
+
+	public void setFechaNacimiento(String string) {
+	
+		this.fechaNacimiento = string;
+	
+	}
+}
+ 
+

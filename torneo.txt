@@ -1,0 +1,30 @@
+package umlJavaRugby6Naciones;
+import java.sql.Date;
+
+public class Torneo{
+	private int año;
+	
+	public void ganador(){
+
+	}
+	public void clasificacion(){
+
+	}
+	
+	//máximo de 3 jornadas
+	public java.util.Collection tieneJornada = new java.util.TreeSet();
+
+	public int getaño() {
+	
+		return año;
+	
+	}
+
+
+	
+	public void setaño(int año) {
+	
+		this.año = año;
+	
+	}
+}
